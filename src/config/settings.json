@@ -1,0 +1,10 @@
+[
+  {
+    "name": "cache_dir",
+    "display_name": "Cache Directory",
+    "value": "/tmp/octofin",
+    "description": "Directory to store cached files",
+    "group": "cache",
+    "type": "path"
+  }
+]

@@ -1,0 +1,43 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Poetry and build artifacts
+.poetry/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.whl
+pip-wheel-metadata/
+*.pyo
+
+# Django-specific
+db.sqlite3
+*.mo
+static/
+staticfiles/
+media/
+**/migrations/*.pyc
+**/migrations/__pycache__/
+local_settings.py
+
+# Environment and config
+.env
+.env.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Logs and test output
+*.log
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
