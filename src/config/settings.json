@@ -1,10 +1,42 @@
 [
   {
+    "name": "data_dir",
+    "display_name": "Octofin Data Directory",
+    "value": "./data",
+    "description": "Path to where octofin can store permanent data",
+    "group": "Server/Octofin",
+    "type": "path"
+  },
+  {
+    "name": "jellyfin_server_url",
+    "display_name": "Jellyfin Server URL",
+    "value": "http://localhost:8096",
+    "description": "URL of the jellyfin server as seen by octofin.",
+    "group": "Server/Jellyfin",
+    "type": "url"
+  },
+  {
+    "name": "jellyfin_api_key",
+    "display_name": "Jellyfin API Key",
+    "value": "",
+    "description": "External applications are required to have an API key in order to communicate with the server. You can generate a key by going into admin dashboard > API Keys",
+    "group": "Server/Jellyfin",
+    "type": "string"
+  },
+  {
+    "name": "use_cache",
+    "display_name": "Use Cache",
+    "value": true,
+    "description": "Allows the use of storing cache files for downloading and quick retrieval.",
+    "group": "Server/Cache",
+    "type": "bool"
+  },
+  {
     "name": "cache_dir",
     "display_name": "Cache Directory",
     "value": "/tmp/octofin",
     "description": "Directory to store cached files",
-    "group": "cache",
+    "group": "Server/Cache",
     "type": "path"
   }
 ]
