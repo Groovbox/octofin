@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "display_name", "value", "description", "group", "type"],
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "display_name": {
+        "type": "string"
+      },
+      "value": {
+        "type": ["string", "number", "boolean", "null"]
+      },
+      "description": {
+        "type": "string"
+      },
+      "group": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string",
+        "enum": ["string", "path", "url", "integer", "bool"]
+      }
+    },
+    "additionalProperties": false
+  }
+}
