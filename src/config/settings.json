@@ -47,6 +47,7 @@
     "group": "Tools/YT Music Downloader",
     "type": "path"
   },
+
   {
     "name": "po_token",
     "display_name": "GVS PO Token",
